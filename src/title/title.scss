@@ -1,0 +1,57 @@
+
+
+
+@import'../app.scss';
+
+
+.cabezera{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    h1{
+        width: 80%;
+        margin: auto;
+        
+        font-family: 'Playfair Display';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+    }
+
+    .first-description{
+        display: flex;
+        margin: auto;
+        width: 80%;
+      
+       align-items: flex-start;
+
+        .icon-drag{
+            margin-top: 14px;
+            width: 1rem;
+            padding-right: 1rem;
+        }
+        p{
+            
+            color: $gray-2;
+            
+            font-family: 'Montserrat';
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 500;
+            margin-right: 45%;
+            margin-bottom: 2rem;
+            line-height: normal;
+            
+
+            
+            
+        }
+    }
+    
+    img{
+        width: 80%;
+        margin: auto;
+    }
+}
