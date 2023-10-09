@@ -43,6 +43,15 @@
             margin-right: 2rem;
             color: $gray-3;
             padding-left:40ps ;
+            appearance: none;
+            border: 1px solid $gray-4;
+            border-radius: 5px;
+            box-shadow: inset 1px 1px 5px #888888;
+        }
+        input:checked{
+            background-color:$orange;
+            box-shadow: 0px 0px 1px 1px $orange;
+            
         }
 
     }
