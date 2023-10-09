@@ -5,17 +5,17 @@ import reloj from './img/reloj-contorno-circular.png'
 
 export const Ingredients = () => {
 
-    const opciones ={
-        option1: false,
-        option2: false,
-        option3: false,
-        option4: false,
-        option5: false,
-        option6: false,
-        option7: false,
-        option8: false,
-        option9: false,
-        option10: false,
+    // const opciones ={
+    //     option1: false,
+    //     option2: false,
+    //     option3: false,
+    //     option4: false,
+    //     option5: false,
+    //     option6: false,
+    //     option7: false,
+    //     option8: false,
+    //     option9: false,
+    //     option10: false,
     // Agrega más opciones según sea necesario
     }
     
