@@ -3,6 +3,7 @@ import './app.scss'
 import { Fragment } from 'react';
 import { Title } from './title/Title';
 import { Ingredients } from './ingredients/Ingredients';
+import { Instructions } from './instructions/Instructions';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     
       <Title/>
       <Ingredients/>
+      <Instructions/>
 
     </Fragment>
       

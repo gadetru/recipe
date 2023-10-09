@@ -1,0 +1,72 @@
+@import'../app.scss';
+
+.instructions-list{
+    width: 80%;
+    margin: auto;
+    h3{
+        color:$gray-1;
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .instructions{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        h5{
+            margin: 16px;
+            color: #FFF;
+            font-family: 'Playfair Display';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background-color: $orange;
+            width: 36px;
+            height: 36px;
+            border-radius: 6px;
+            text-align: center;
+            padding: 5px 14px 12px 14px;
+            //padding: 5px;
+        }
+        p{
+            color: $gray-1;
+            width: 80%;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-right: 45%;
+        }
+        .negrita{
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+}
+
+/* Estilos para pantallas de 480px o menos */
+@media (max-width: 480px) {
+
+    .instructions-list{
+        width: 95%;
+        .instructions{
+            width: 100%;
+            h5{
+                margin: 0;
+                padding: 1px 8px 6px 8px;
+                margin-right: 0.5rem;
+                
+            }
+            p{
+                margin: 0;
+                width: 90%;
+
+            }
+        }
+    }
+
+}

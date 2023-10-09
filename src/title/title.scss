@@ -50,8 +50,58 @@
         }
     }
     
-    img{
+    img.postre{
         width: 80%;
         margin: auto;
     }
+} 
+
+/* Estilos para pantallas de 480px o menos */
+@media (max-width: 480px) {
+    .cabezera{
+        h1{
+            margin-left: 10px;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .first-description{
+            width: 5%;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width:95%;
+            .icon-drag{
+                margin: 0;
+                padding-right: 0.5rem;
+                width: 0.6rem;
+                
+            }
+            p{
+                width:95%;
+                font-size: 12px;
+                font-style: italic;
+                font-weight: 500;
+                line-height: normal;
+                margin: 0;
+                
+
+
+            }
+
+           
+        }
+        
+        img.postre{
+                width: 94%;
+                height: 30vh;
+                object-fit:cover;
+                border-radius: 12px;
+                object-position:center bottom;
+            }
+    }
+
+
 }
+
+   

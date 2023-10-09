@@ -1,24 +1,9 @@
 import React, { useState } from 'react'
 import './ingredients.scss'
-
+import cuchillo from './img/cuchilleria.png'
+import reloj from './img/reloj-contorno-circular.png'
 export const Ingredients = () => {
 
-    // const [checkboxes, setCheckboxes] = useState([
-    //     { id: 1, label: '1 and 1/2 cups (150g) graham cracker crumbs (about 10 full sheet graham crackers)', isChecked: false },
-    //     { id: 2, label: 'Texto del Checkbox 2', isChecked: false },
-    //     { id: 3, label: 'Texto del Checkbox 3', isChecked: false },
-    //     { id: 4, label: 'Texto del Checkbox 4', isChecked: false },
-    //     { id: 5, label: 'Texto del Checkbox 5', isChecked: false },
-    //     { id: 6, label: 'Texto del Checkbox 6', isChecked: false },
-    //   ]);
-    
-    //   const handleCheckboxChange = (id) => {
-    //     setCheckboxes((prevCheckboxes) =>
-    //       prevCheckboxes.map((checkbox) =>
-    //         checkbox.id === id ? { ...checkbox, isChecked: !checkbox.isChecked } : checkbox
-    //       )
-    //     );
-    //   };
       
   return (
     <div className='ingredientes-leyenda'>
@@ -47,32 +32,88 @@ export const Ingredients = () => {
                
             </ul>
 
-        </div>
-        <div>
-            
             <p>Cheesecake</p>
             <ul>
                 <li >
                     <input
                         type='checkbox'
                     />
-                    <label>1 and 1/2 cups (150g) <span>graham cracker crumbs</span> (about 10 full sheet graham crackers)</label> 
+                    <label>four 8-ounce blocks (904g) full-fat <span>cream cheese</span>, softened to room temperature</label> 
                 </li>
                 <li >
                     <input
                         type='checkbox'
                     />
-                    <label>5 Tablespoons (70g) <span>unsalted butter</span>, melted</label> 
+                    <label>1 cup (200g) <span> granulated sugar</span></label> 
                 </li>
                 <li >
                     <input
                         type='checkbox'
                     />
-                    <label>1/4 cup (50g) <span>granulated sugar</span></label> 
+                    <label>1 cup (240g) full-fat <span>sour cream</span> , at room temperature</label> 
+                </li>
+                <li >
+                    <input
+                        type='checkbox'
+                    />
+                    <label>1 teaspoon <span> pure vanilla extract</span></label> 
+                </li>
+                <li >
+                    <input
+                        type='checkbox'
+                    />
+                    <label>2 teaspoons <span> fresh lemon juice</span> (optional, but recommended)</label> 
+                </li>
+                <li >
+                    <input
+                        type='checkbox'
+                    />
+                    <label>3 large <span>eggs</span>, at room temperature</label> 
+                </li>
+                <li >
+                    <input
+                        type='checkbox'
+                    />
+                    <label>topping suggestions: salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce (recipe in notes)</label> 
                 </li>
                
             </ul>
 
+        </div>
+        <div className='detalles'>
+            <div className='detalles-column'>
+                <div className='detalles-row'>
+                <img src={cuchillo}></img>
+                <div>
+                    <h4>yields</h4>
+                    <p className='servings'>12 servings</p>
+                </div>
+            </div>  
+            </div>
+            <div className='detalles-column'>
+                <div className='detalles-row'>
+                    <img src={reloj}></img>
+                    <div>
+                        <h4>Prep TIme</h4>
+                        <p>45 minutes</p>
+                    </div>
+                </div>  
+                <div className='detalles-row'>
+                    <img src={reloj}></img>
+                    <div>
+                        <h4>Cook Time</h4>
+                        <p>1 hour</p>
+                    </div>
+                </div>  
+                <div className='detalles-row'>
+                    <img src={reloj}></img>
+                    <div>
+                        <h4>Total Time</h4>
+                        <p>7,75 hours</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
 
     </div>

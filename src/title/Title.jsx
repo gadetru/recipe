@@ -11,7 +11,7 @@ export const Title = () => {
           <img className='icon-drag' src={drag}/>
           <p>  Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.</p>
         </div>
-        <img src={dessert}/>
+        <img className='postre' src={dessert}/>
         
     </div>
 
