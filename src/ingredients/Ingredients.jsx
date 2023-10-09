@@ -17,7 +17,7 @@ export const Ingredients = () => {
     //     option9: false,
     //     option10: false,
     // Agrega más opciones según sea necesario
-    }
+    
     
     const [checkboxValues, setCheckboxValues] = useState('');
 
