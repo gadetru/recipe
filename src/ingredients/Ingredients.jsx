@@ -83,7 +83,7 @@ export const Ingredients = () => {
         <div className='detalles'>
             <div className='detalles-column'>
                 <div className='detalles-row'>
-                <img src={cuchillo}></img>
+                <img alt='cuchillo' src={cuchillo}></img>
                 <div>
                     <h4>yields</h4>
                     <p className='servings'>12 servings</p>
@@ -92,21 +92,21 @@ export const Ingredients = () => {
             </div>
             <div className='detalles-column'>
                 <div className='detalles-row'>
-                    <img src={reloj}></img>
+                    <img alt='reloj' src={reloj}></img>
                     <div>
                         <h4>Prep TIme</h4>
                         <p>45 minutes</p>
                     </div>
                 </div>  
                 <div className='detalles-row'>
-                    <img src={reloj}></img>
+                    <img alt='reloj' src={reloj}></img>
                     <div>
                         <h4>Cook Time</h4>
                         <p>1 hour</p>
                     </div>
                 </div>  
                 <div className='detalles-row'>
-                    <img src={reloj}></img>
+                    <img alt='reloj' src={reloj}></img>
                     <div>
                         <h4>Total Time</h4>
                         <p>7,75 hours</p>
