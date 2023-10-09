@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './ingredients.scss'
 import cuchillo from './img/cuchilleria.png'
 import reloj from './img/reloj-contorno-circular.png'
